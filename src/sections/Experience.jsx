@@ -50,6 +50,20 @@ const Experience = () => {
                         ))
                     }
                 </div>
+                 <div className="flex justify-center gap-3 mb-4">
+            <div className="social-icon">
+                <a href="https://github.com/Khomkhadka" target="_blank" 
+                rel="noopener noreferrer"><img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2 ml-3" /></a>
+            </div>
+            <div className="social-icon">
+                <a href="https://www.linkedin.com/in/khom-khadka-971b14251" target="_blank" 
+                rel="noopener noreferrer"><img src="/assets/linkdin.png" alt="linkdin" className="w-1/2 h-1/2 ml-3" /></a>
+            </div>
+            <div className="social-icon">
+                <a href="https://www.facebook.com/akavishek.khadka/" target="_blank" 
+                 rel="noopener noreferrer"><img src="/assets/fb.png" alt="facebook" className="w-1/2 h-1/2 ml-3" /></a>
+            </div>
+        </div>
             </div>
         </div>
          <div className="work-content mt-4 h-40 ">
@@ -74,6 +88,7 @@ const Experience = () => {
       </button>
     </a>
   </div>
+ 
 </div>
 
             </div>
